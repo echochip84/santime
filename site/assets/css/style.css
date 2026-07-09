@@ -239,8 +239,11 @@ table.sortable thead th .sort-arrow { display: inline-block; margin-left: var(--
 table.sortable thead th[aria-sort] .sort-arrow { opacity: 1; color: var(--accent); }
 
 /* 외부 링크 스플릿 뷰 미리보기 */
+:root { --preview-width: min(50vw, 900px); }
+@media (max-width: 767px) { :root { --preview-width: 100vw; } }
+
 .link-preview-panel {
-  position: fixed; top: 0; right: 0; width: min(50vw, 900px); height: 100vh;
+  position: fixed; top: 0; right: 0; width: var(--preview-width); height: 100vh;
   background: var(--surface); border-left: 1px solid var(--border);
   box-shadow: -8px 0 24px rgba(0,0,0,.18);
   display: flex; flex-direction: column; z-index: 200;
@@ -260,10 +263,12 @@ table.sortable thead th[aria-sort] .sort-arrow { opacity: 1; color: var(--accent
 }
 .link-preview-close:hover { border-color: var(--accent); color: var(--accent); }
 .link-preview-frame { flex: 1; width: 100%; border: 0; background: #fff; }
-@media (max-width: 767px) {
-  .link-preview-panel { width: 100vw; }
-}
-body.link-preview-active { overflow: hidden; }
+
+/* 패널이 열리면 좌측 콘텐츠 전체(#page-shell)를 그만큼 좁혀 두 프레임이 겹치지 않게 한다.
+   html/body의 padding-right는 일부 브라우저/환경에서 무시되는 현상이 실측 확인되어
+   대신 래퍼 요소의 width를 직접 줄인다(link-preview.js가 px 값을 계산해 대입). */
+#page-shell { transition: width .25s ease-out; }
+html.link-preview-active { overflow: hidden; }
 
 .print-meta { display: none; }
 @media print {
