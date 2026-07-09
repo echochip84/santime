@@ -268,7 +268,11 @@ table.sortable thead th[aria-sort] .sort-arrow { opacity: 1; color: var(--accent
    html/body의 padding-right는 일부 브라우저/환경에서 무시되는 현상이 실측 확인되어
    대신 래퍼 요소의 width를 직접 줄인다(link-preview.js가 px 값을 계산해 대입). */
 #page-shell { transition: width .25s ease-out; }
+/* 패널이 열려 있는 동안 좌측(#page-shell)과 우측(iframe)이 각각 독립된 스크롤 컨테이너가
+   되게 한다 — 브라우저 기본 동작상 마우스가 올라간 스크롤 컨테이너만 휠 스크롤되므로,
+   커서 위치에 따라 좌/우가 자동으로 따로 스크롤된다(별도 JS 라우팅 불필요). */
 html.link-preview-active { overflow: hidden; }
+html.link-preview-active #page-shell { height: 100vh; overflow-y: auto; overflow-x: hidden; -webkit-overflow-scrolling: touch; }
 
 .print-meta { display: none; }
 @media print {
