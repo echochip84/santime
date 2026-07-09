@@ -1,0 +1,1071 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>전국 등산 코스 조회 — 시도별 대표 코스 100선</title>
+  <meta name="description" content="전국 17개 시도 대표 등산 코스 100개를 국립공원공단·지자체·한국관광공사 등 공식 자료 기반으로 정리했습니다. 거리·소요시간·고도·난이도·출처를 지역별로 확인하세요.">
+  <link rel="canonical" href="https://__DOMAIN__/courses/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="전국 등산 코스 조회 — 산타임">
+  <meta property="og:description" content="시도별 대표 등산 코스 100개, 거리·소요시간·난이도·출처를 한눈에">
+  <meta property="og:image" content="https://__DOMAIN__/assets/img/og-image.png">
+  <meta property="og:url" content="https://__DOMAIN__/courses/">
+  <link rel="icon" href="/assets/img/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/assets/css/style.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    "name": "전국 등산 코스 100선",
+    "description": "국립공원공단·지자체·한국관광공사 등 공식 자료 기반으로 조사한 전국 시도별 대표 등산 코스 100개"
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">본문 바로가기</a>
+  <header class="site-header">
+    <div class="inner">
+      <a class="logo" href="/">산타임</a>
+      <nav class="gnb" aria-label="주요 메뉴">
+        <ul>
+          <li><a href="/">소요시간 계산기</a></li>
+          <li><a href="/courses/" aria-current="page">전국 코스 조회</a></li>
+          <li><a href="/about/">소개</a></li>
+          <li><a href="/contact/">문의</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <article>
+      <div class="container-wide page-head">
+        <h1>전국 등산 코스 조회</h1>
+        <p class="last-updated">최종 수정: 2026년 7월 9일 · 코스 100개 · 17개 시도</p>
+
+        <div class="tldr-box">
+          <p><strong>요약:</strong> 전국 17개 시도의 대표 등산 코스 100개를 국립공원공단 → 지자체 공식 → 한국관광공사·두루누비 → 블로그 순으로 우선순위를 두고 직접 조사했습니다. 공식 자료로 확인되지 않은 수치는 추측하지 않고 "확인필요"로 표기했으며, 각 코스의 출처를 표에서 그대로 확인할 수 있습니다.</p>
+        </div>
+
+        <div class="stats-row" aria-label="코스 데이터 요약">
+          <div class="stat-tile"><span class="k">전체 코스</span><span class="v">100개</span><span class="s">17개 시도</span></div>
+          <div class="stat-tile"><span class="k">국립공원공단 출처</span><span class="v">18개</span><span class="s">가장 신뢰도 높은 1순위 출처</span></div>
+          <div class="stat-tile"><span class="k">지자체·관광공사 출처</span><span class="v">42개</span><span class="s">공식 기관 자료</span></div>
+          <div class="stat-tile"><span class="k">난이도 확인필요</span><span class="v">39개</span><span class="s">추측하지 않고 정직하게 표기</span></div>
+        </div>
+      </div>
+
+      <div class="container-wide">
+        <section id="browser" aria-labelledby="browser-heading">
+          <h2 id="browser-heading" style="margin-top:0">코스 찾아보기</h2>
+
+          <div class="field">
+            <label for="q">산 이름·코스명 검색</label>
+            <div class="input-wrap">
+              <input type="search" id="q" placeholder="예: 북한산, 천왕봉, 대청봉" aria-describedby="q-help">
+            </div>
+            <span id="q-help" class="help-text">산 이름, 코스명, 지역명으로 검색됩니다</span>
+          </div>
+
+          <div class="region-filter" role="group" aria-label="지역 필터" id="region-filter">
+            <button type="button" data-region="" aria-pressed="true">전체</button>
+            <button type="button" data-region="서울" aria-pressed="false">서울</button>
+            <button type="button" data-region="경기" aria-pressed="false">경기</button>
+            <button type="button" data-region="인천" aria-pressed="false">인천</button>
+            <button type="button" data-region="강원" aria-pressed="false">강원</button>
+            <button type="button" data-region="충북" aria-pressed="false">충북</button>
+            <button type="button" data-region="충남" aria-pressed="false">충남</button>
+            <button type="button" data-region="대전" aria-pressed="false">대전</button>
+            <button type="button" data-region="세종" aria-pressed="false">세종</button>
+            <button type="button" data-region="전북" aria-pressed="false">전북</button>
+            <button type="button" data-region="전남" aria-pressed="false">전남</button>
+            <button type="button" data-region="광주" aria-pressed="false">광주</button>
+            <button type="button" data-region="경북" aria-pressed="false">경북</button>
+            <button type="button" data-region="경남" aria-pressed="false">경남</button>
+            <button type="button" data-region="대구" aria-pressed="false">대구</button>
+            <button type="button" data-region="부산" aria-pressed="false">부산</button>
+            <button type="button" data-region="울산" aria-pressed="false">울산</button>
+            <button type="button" data-region="제주" aria-pressed="false">제주</button>
+          </div>
+
+          <div class="region-filter" role="group" aria-label="난이도 필터" id="difficulty-filter">
+            <button type="button" data-difficulty="" aria-pressed="true">난이도 전체</button>
+            <button type="button" data-difficulty="easy" aria-pressed="false">쉬움</button>
+            <button type="button" data-difficulty="mid" aria-pressed="false">보통</button>
+            <button type="button" data-difficulty="hard" aria-pressed="false">어려움</button>
+            <button type="button" data-difficulty="unknown" aria-pressed="false">확인필요</button>
+          </div>
+
+          <p id="result-count" class="help-text" role="status" aria-live="polite">100개 코스 표시 중</p>
+
+          <div class="table-wrap">
+            <table id="course-table">
+              <thead>
+                <tr>
+                  <th>지역</th><th>산·코스</th><th class="num">거리</th><th class="num">소요시간</th>
+                  <th class="num">고도</th><th>난이도</th><th>출처</th>
+                </tr>
+              </thead>
+              <tbody id="course-tbody">
+              <tr data-region="서울" data-difficulty="mid">
+                <td>서울</td>
+                <td><strong>북한산</strong><br><span class="help-text" style="margin:0">백운대 코스(북한산성탐방지원센터)</span></td>
+                <td class="num">3.4(편도)</td>
+                <td class="num">2시간 40분</td>
+                <td class="num">836.5</td>
+                <td><span class="difficulty-badge mid">보통</span></td>
+                <td><a href="https://www.knps.or.kr/front/portal/visit/visitCourseSubMain.do?parkId=121500&amp;parkNavGb=guide&amp;menuNo=7020092" target="_blank" rel="noopener">국립공원공단</a></td>
+              </tr>
+              <tr data-region="서울" data-difficulty="easy">
+                <td>서울</td>
+                <td><strong>도봉산</strong><br><span class="help-text" style="margin:0">북한산둘레길 18구간(도봉옛길)</span></td>
+                <td class="num">3.1(편도)</td>
+                <td class="num">1시간 30분</td>
+                <td class="num">739.5</td>
+                <td><span class="difficulty-badge easy">쉬움</span></td>
+                <td><a href="https://www.knps.or.kr/portal/dulegil/bukhansan/course18.do" target="_blank" rel="noopener">국립공원공단</a></td>
+              </tr>
+              <tr data-region="서울" data-difficulty="unknown">
+                <td>서울</td>
+                <td><strong>관악산</strong><br><span class="help-text" style="margin:0">서울대 건설환경종합연구소 코스</span></td>
+                <td class="num">2.1(편도)</td>
+                <td class="num">1시간~1시간 30분</td>
+                <td class="num">632</td>
+                <td><span class="difficulty-badge unknown">확인필요</span></td>
+                <td><a href="https://korean.visitkorea.or.kr/detail/rem_detail.do?cotid=0cd58408-f5ca-4f50-99e3-ec091f7de846" target="_blank" rel="noopener">한국관광공사</a></td>
+              </tr>
+              <tr data-region="서울" data-difficulty="mid">
+                <td>서울</td>
+                <td><strong>인왕산</strong><br><span class="help-text" style="margin:0">인왕산숲길(추천 1코스)</span></td>
+                <td class="num">2.5</td>
+                <td class="num">1시간</td>
+                <td class="num">338.2</td>
+                <td><span class="difficulty-badge mid">보통</span></td>
+                <td><a href="https://www.jongno.go.kr/fitness/sub04/index_1.jsp" target="_blank" rel="noopener">지자체공식</a></td>
+              </tr>
+              <tr data-region="서울" data-difficulty="mid">
+                <td>서울</td>
+                <td><strong>아차산</strong><br><span class="help-text" style="margin:0">서울둘레길 5코스</span></td>
+                <td class="num">4.6</td>
+                <td class="num">2시간 10분</td>
+                <td class="num">287</td>
+                <td><span class="difficulty-badge mid">보통</span></td>
+                <td><a href="https://gil.seoul.go.kr/gil/view.do?key=2407100014&amp;sc_gilNo=5" target="_blank" rel="noopener">지자체공식</a></td>
+              </tr>
+              <tr data-region="서울" data-difficulty="hard">
+                <td>서울</td>
+                <td><strong>수락산</strong><br><span class="help-text" style="margin:0">서울둘레길 1코스</span></td>
+                <td class="num">6.3</td>
+                <td class="num">2시간 50분</td>
+                <td class="num">638</td>
+                <td><span class="difficulty-badge hard">어려움</span></td>
+                <td><a href="https://gil.seoul.go.kr/gil/view.do?key=2406040003&amp;sc_gilNo=1" target="_blank" rel="noopener">지자체공식</a></td>
+              </tr>
+              <tr data-region="경기" data-difficulty="unknown">
+                <td>경기</td>
+                <td><strong>청계산</strong><br><span class="help-text" style="margin:0">사기막골 등산로(1코스)</span></td>
+                <td class="num">7.1(편도)</td>
+                <td class="num">5~6시간</td>
+                <td class="num">615(망경대)</td>
+                <td><span class="difficulty-badge unknown">확인필요</span></td>
+                <td><a href="https://www.gccity.go.kr/dept/contents.do?mId=0804020200" target="_blank" rel="noopener">지자체공식</a></td>
+              </tr>
+              <tr data-region="경기" data-difficulty="unknown">
+                <td>경기</td>
+                <td><strong>관악산</strong><br><span class="help-text" style="margin:0">문원폭포 등산로(1코스)</span></td>
+                <td class="num">4.1(편도)</td>
+                <td class="num">4시간</td>
+                <td class="num">632(연주대)</td>
+                <td><span class="difficulty-badge unknown">확인필요</span></td>
+                <td><a href="https://www.gccity.go.kr/dept/contents.do?mId=0804010200" target="_blank" rel="noopener">지자체공식</a></td>
+              </tr>
+              <tr data-region="경기" data-difficulty="mid">
+                <td>경기</td>
+                <td><strong>소요산</strong><br><span class="help-text" style="margin:0">의상대 정상 코스</span></td>
+                <td class="num">6.9(왕복)</td>
+                <td class="num">3시간 30분</td>
+                <td class="num">587(의상대)</td>
+                <td><span class="difficulty-badge mid">보통</span></td>
+                <td><a href="https://v.daum.net/v/UrJsCYMUTj" target="_blank" rel="noopener">블로그</a></td>
+              </tr>
+              <tr data-region="경기" data-difficulty="unknown">
+                <td>경기</td>
+                <td><strong>감악산</strong><br><span class="help-text" style="margin:0">제1코스(범륜사입구~임꺽정봉~정상)</span></td>
+                <td class="num">3.9(편도)</td>
+                <td class="num">약 1시간 40분</td>
+                <td class="num">675</td>
+                <td><span class="difficulty-badge unknown">확인필요</span></td>
+                <td><a href="https://tour.paju.go.kr/user/tour/place/BD_tourPlaceInfoView.do?q_gubun=thema6&amp;menuCode=65&amp;cntntsSn=838" target="_blank" rel="noopener">지자체공식</a></td>
+              </tr>
+              <tr data-region="경기" data-difficulty="unknown">
+                <td>경기</td>
+                <td><strong>천마산</strong><br><span class="help-text" style="margin:0">1코스(호평동 코스)</span></td>
+                <td class="num">2.96(편도)</td>
+                <td class="num">1시간 30분~2시간</td>
+                <td class="num">812</td>
+                <td><span class="difficulty-badge unknown">확인필요</span></td>
+                <td><a href="https://www.nyj.go.kr/culture/contents.do?key=4315" target="_blank" rel="noopener">지자체공식</a></td>
+              </tr>
+              <tr data-region="경기" data-difficulty="easy">
+                <td>경기</td>
+                <td><strong>명성산</strong><br><span class="help-text" style="margin:0">1코스(등룡폭포~억새밭~팔각정)</span></td>
+                <td class="num">6.6(왕복)</td>
+                <td class="num">3~4시간</td>
+                <td class="num">922.6</td>
+                <td><span class="difficulty-badge easy">쉬움</span></td>
+                <td><a href="https://koreahike.com/%EB%AA%85%EC%84%B1%EC%82%B0-%EB%93%B1%EC%82%B0%EC%BD%94%EC%8A%A4/" target="_blank" rel="noopener">블로그</a></td>
+              </tr>
+              <tr data-region="경기" data-difficulty="mid">
+                <td>경기</td>
+                <td><strong>광교산</strong><br><span class="help-text" style="margin:0">1코스(형제봉 코스)</span></td>
+                <td class="num">5.3(편도)</td>
+                <td class="num">2시간 15분</td>
+                <td class="num">582(시루봉)</td>
+                <td><span class="difficulty-badge mid">보통</span></td>
+                <td><a href="https://www.sujigu.go.kr/lmth/04life050103.asp" target="_blank" rel="noopener">지자체공식</a></td>
+              </tr>
+              <tr data-region="경기" data-difficulty="unknown">
+                <td>경기</td>
+                <td><strong>축령산</strong><br><span class="help-text" style="margin:0">추천코스(매표소~수리바위~남이바위~정상~절고개)</span></td>
+                <td class="num">6(왕복)</td>
+                <td class="num">3시간 25분</td>
+                <td class="num">887.1</td>
+                <td><span class="difficulty-badge unknown">확인필요</span></td>
+                <td><a href="https://www.foresttrip.go.kr/pot/cc/hm/selectHndfmsmtnMngmeDtl.do?fmmntSeq=72028&amp;fmmntArcd=01" target="_blank" rel="noopener">지자체공식</a></td>
+              </tr>
+              <tr data-region="인천" data-difficulty="unknown">
+                <td>인천</td>
+                <td><strong>계양산</strong><br><span class="help-text" style="margin:0">정상 코스(지선사입구~계양산 정상)</span></td>
+                <td class="num">1.22(편도)</td>
+                <td class="num">1시간 내외</td>
+                <td class="num">395</td>
+                <td><span class="difficulty-badge unknown">확인필요</span></td>
+                <td><a href="https://www.gyeyang.go.kr/open_content/tour/mount/trail/gyeyang_04.jsp" target="_blank" rel="noopener">지자체공식</a></td>
+              </tr>
+              <tr data-region="인천" data-difficulty="mid">
+                <td>인천</td>
+                <td><strong>마니산</strong><br><span class="help-text" style="margin:0">계단로 참성단 코스</span></td>
+                <td class="num">4.7(왕복)</td>
+                <td class="num">상행 1시간 15분, 왕복 약 3시간</td>
+                <td class="num">472.1</td>
+                <td><span class="difficulty-badge mid">보통</span></td>
+                <td><a href="https://koreahike.com/manisan-hiking-guide/" target="_blank" rel="noopener">블로그</a></td>
+              </tr>
+              <tr data-region="인천" data-difficulty="easy">
+                <td>인천</td>
+                <td><strong>호룡곡산-국사봉(무의도)</strong><br><span class="help-text" style="margin:0">광명항~호룡곡산~국사봉~큰무리선착장 종주코스</span></td>
+                <td class="num">7.6(편도)</td>
+                <td class="num">약 3시간</td>
+                <td class="num">호룡곡산 245.6 / 국사봉 236</td>
+                <td><span class="difficulty-badge easy">쉬움</span></td>
+                <td><a href="https://korean.visitkorea.or.kr/detail/rem_detail.do?cotid=5ed2d03a-fe97-4c02-9c16-caac3ed8dc9e" target="_blank" rel="noopener">한국관광공사</a></td>
+              </tr>
+              <tr data-region="충북" data-difficulty="mid">
+                <td>충북</td>
+                <td><strong>속리산</strong><br><span class="help-text" style="margin:0">문장대코스(법주사~세심정~문장대, 편도)</span></td>
+                <td class="num">6.6</td>
+                <td class="num">3시간 30분</td>
+                <td class="num">1054</td>
+                <td><span class="difficulty-badge mid">보통</span></td>
+                <td><a href="https://www.knps.or.kr/front/portal/visit/visitCourseSubMain.do?parkId=120500&amp;parkNavGb=epil&amp;menuNo=7020095" target="_blank" rel="noopener">국립공원공단</a></td>
+              </tr>
+              <tr data-region="충북" data-difficulty="mid">
+                <td>충북</td>
+                <td><strong>월악산</strong><br><span class="help-text" style="margin:0">영봉코스(덕주사, 왕복)</span></td>
+                <td class="num">9.8</td>
+                <td class="num">왕복 약 7시간(편도 3~4시간)</td>
+                <td class="num">1097</td>
+                <td><span class="difficulty-badge mid">보통</span></td>
+                <td><a href="https://zzanzzan.com/entry/월악산-등산코스-덕주사-영봉-덕주사-및-주차장-위치안내" target="_blank" rel="noopener">블로그</a></td>
+              </tr>
+              <tr data-region="충북" data-difficulty="unknown">
+                <td>충북</td>
+                <td><strong>소백산</strong><br><span class="help-text" style="margin:0">어의곡코스(단양, 편도)</span></td>
+                <td class="num">5.1</td>
+                <td class="num">2시간 40분</td>
+                <td class="num">1439.5</td>
+                <td><span class="difficulty-badge unknown">확인필요</span></td>
+                <td><a href="https://www.hiking-beginner.com/mountain/sobaeksan" target="_blank" rel="noopener">블로그</a></td>
+              </tr>
+              <tr data-region="충북" data-difficulty="unknown">
+                <td>충북</td>
+                <td><strong>민주지산</strong><br><span class="help-text" style="margin:0">물한리 A코스(원점회귀: 황룡사~정상~석기봉~삼도봉)</span></td>
+                <td class="num">12.45</td>
+                <td class="num">6시간 30분</td>
+                <td class="num">1241.7</td>
+                <td><span class="difficulty-badge unknown">확인필요</span></td>
+                <td><a href="https://www.yd21.go.kr/tour/html/sub02/020403.html" target="_blank" rel="noopener">지자체공식</a></td>
+              </tr>
+              <tr data-region="충북" data-difficulty="unknown">
+                <td>충북</td>
+                <td><strong>구병산</strong><br><span class="help-text" style="margin:0">적암리 원점회귀코스(토골~신선대~정상~숨은골)</span></td>
+                <td class="num">8.5</td>
+                <td class="num">4시간</td>
+                <td class="num">876</td>
+                <td><span class="difficulty-badge unknown">확인필요</span></td>
+                <td><a href="https://koreahike.com/%EA%B5%AC%EB%B3%91%EC%82%B0-%EB%93%B1%EC%82%B0%EC%BD%94%EC%8A%A4/" target="_blank" rel="noopener">블로그</a></td>
+              </tr>
+              <tr data-region="충북" data-difficulty="mid">
+                <td>충북</td>
+                <td><strong>도락산</strong><br><span class="help-text" style="margin:0">상선암-채운봉-도락산-제봉-상선암코스(순환)</span></td>
+                <td class="num">6.8</td>
+                <td class="num">3시간 13분</td>
+                <td class="num">964</td>
+                <td><span class="difficulty-badge mid">보통</span></td>
+                <td><a href="https://landyplay.com/%EB%8F%84%EB%9D%BD%EC%82%B0-%EB%93%B1%EC%82%B0%EC%BD%94%EC%8A%A4-%EC%83%81%EC%84%A0%EC%95%94-%EC%B1%84%EC%9A%B4%EB%B4%89-%EB%8F%84%EB%9D%BD%EC%82%B0-%EC%A0%9C%EB%B4%89-%EC%83%81%EC%84%A0%EC%95%94/" target="_blank" rel="noopener">블로그</a></td>
+              </tr>
+              <tr data-region="충남" data-difficulty="mid">
+                <td>충남</td>
+                <td><strong>계룡산</strong><br><span class="help-text" style="margin:0">갑사~동학사 코스(연천봉·관음봉·자연성릉·삼불봉·남매탑 경유)</span></td>
+                <td class="num">10.2</td>
+                <td class="num">약 6시간</td>
+                <td class="num">765.8</td>
+                <td><span class="difficulty-badge mid">보통</span></td>
+                <td><a href="https://www.knps.or.kr/front/portal/visit/visitCourseSubMain.do?parkId=120200&amp;parkNavGb=guide&amp;menuNo=7020086" target="_blank" rel="noopener">국립공원공단</a></td>
+              </tr>
+              <tr data-region="충남" data-difficulty="mid">
+                <td>충남</td>
+                <td><strong>오서산</strong><br><span class="help-text" style="margin:0">성현주차장~시루봉~정상~전망대~정암사 코스</span></td>
+                <td class="num">7.9</td>
+                <td class="num">2시간 50분</td>
+                <td class="num">791</td>
+                <td><span class="difficulty-badge mid">보통</span></td>
+                <td><a href="https://landyplay.com/%EC%98%A4%EC%84%9C%EC%82%B0-%EB%93%B1%EC%82%B0%EC%BD%94%EC%8A%A4-%EC%84%B1%ED%98%84%EC%A3%BC%EC%B0%A8%EC%9E%A5-%EC%8B%9C%EB%A3%A8%EB%B4%89-%EC%A0%95%EC%83%81-%EC%A0%84%EB%A7%9D%EB%8C%80-%EC%A0%95/" target="_blank" rel="noopener">블로그</a></td>
+              </tr>
+              <tr data-region="충남" data-difficulty="mid">
+                <td>충남</td>
+                <td><strong>서대산</strong><br><span class="help-text" style="margin:0">드림리조트 원점회귀 코스(용바위갈림길~마당바위~북두칠성바위~정상)</span></td>
+                <td class="num">6.2</td>
+                <td class="num">2시간 20분</td>
+                <td class="num">904</td>
+                <td><span class="difficulty-badge mid">보통</span></td>
+                <td><a href="https://geumsan.go.kr/tour/html/sub02/020418.html" target="_blank" rel="noopener">지자체공식</a></td>
+              </tr>
+              <tr data-region="충남" data-difficulty="mid">
+                <td>충남</td>
+                <td><strong>칠갑산</strong><br><span class="help-text" style="margin:0">사찰로(장승공원주차장~장곡사~정상, 편도)</span></td>
+                <td class="num">5.6</td>
+                <td class="num">약 2~3시간</td>
+                <td class="num">561</td>
+                <td><span class="difficulty-badge mid">보통</span></td>
+                <td><a href="https://www.cheongyang.go.kr/tour/sub01_02_02.do" target="_blank" rel="noopener">지자체공식</a></td>
+              </tr>
+              <tr data-region="충남" data-difficulty="mid">
+                <td>충남</td>
+                <td><strong>용봉산</strong><br><span class="help-text" style="margin:0">제1코스(용봉초등학교~미륵불~투석봉~정상~노적봉~악귀봉~용바위~병풍바위~구룡대)</span></td>
+                <td class="num">3.4</td>
+                <td class="num">2시간 30분</td>
+                <td class="num">381</td>
+                <td><span class="difficulty-badge mid">보통</span></td>
+                <td><a href="https://www.hongseong.go.kr/prog/tursmCn/tour/sub01_0103/view.do?cntNo=3" target="_blank" rel="noopener">지자체공식</a></td>
+              </tr>
+              <tr data-region="대전" data-difficulty="mid">
+                <td>대전</td>
+                <td><strong>계족산</strong><br><span class="help-text" style="margin:0">황톳길(원점회귀 순환코스)</span></td>
+                <td class="num">14.5</td>
+                <td class="num">4시간</td>
+                <td class="num">429</td>
+                <td><span class="difficulty-badge mid">보통</span></td>
+                <td><a href="https://www.durunubi.kr/4-2-1-1-walk-mobility-view-detail.do?crs_idx=T_CRS_MNG0000004067&amp;brd_div=DNWW" target="_blank" rel="noopener">두루누비</a></td>
+              </tr>
+              <tr data-region="대전" data-difficulty="unknown">
+                <td>대전</td>
+                <td><strong>식장산</strong><br><span class="help-text" style="margin:0">제1코스(세천공원~구절사~독수리봉~전망대)</span></td>
+                <td class="num">9.2</td>
+                <td class="num">3시간 58분</td>
+                <td class="num">596.7</td>
+                <td><span class="difficulty-badge unknown">확인필요</span></td>
+                <td><a href="https://www.donggu.go.kr/dg/tour/129/22/sights" target="_blank" rel="noopener">지자체공식</a></td>
+              </tr>
+              <tr data-region="세종" data-difficulty="unknown">
+                <td>세종</td>
+                <td><strong>전월산</strong><br><span class="help-text" style="margin:0">무궁화테마공원~정상 왕복코스</span></td>
+                <td class="num">2.3</td>
+                <td class="num">왕복 약 2시간</td>
+                <td class="num">260</td>
+                <td><span class="difficulty-badge unknown">확인필요</span></td>
+                <td><a href="https://www.ccnnews.co.kr/news/articleView.html?idxno=275680" target="_blank" rel="noopener">블로그</a></td>
+              </tr>
+              <tr data-region="세종" data-difficulty="unknown">
+                <td>세종</td>
+                <td><strong>원수산</strong><br><span class="help-text" style="margin:0">덕성서원~정상 왕복코스</span></td>
+                <td class="num">3.0</td>
+                <td class="num">왕복 약 1시간</td>
+                <td class="num">251</td>
+                <td><span class="difficulty-badge unknown">확인필요</span></td>
+                <td><a href="https://www.ccnnews.co.kr/news/articleView.html?idxno=284386" target="_blank" rel="noopener">블로그</a></td>
+              </tr>
+              <tr data-region="광주" data-difficulty="mid">
+                <td>광주</td>
+                <td><strong>무등산</strong><br><span class="help-text" style="margin:0">새인봉~입석대 코스(증심사 출발)</span></td>
+                <td class="num">6.2(편도)</td>
+                <td class="num">약 3시간 30분</td>
+                <td class="num">1100(서석대)</td>
+                <td><span class="difficulty-badge mid">보통</span></td>
+                <td><a href="https://dataful.kr/415" target="_blank" rel="noopener">블로그</a></td>
+              </tr>
+              <tr data-region="광주" data-difficulty="unknown">
+                <td>광주</td>
+                <td><strong>어등산</strong><br><span class="help-text" style="margin:0">광주여대~동자봉~어등산~동자봉대~광주여대(왕복)</span></td>
+                <td class="num">확인불가</td>
+                <td class="num">약 2시간 40분</td>
+                <td class="num">338(정상 석봉)</td>
+                <td><span class="difficulty-badge unknown">확인필요</span></td>
+                <td><a href="https://m.cafe.daum.net/yeosujanggun/Ud4f/674" target="_blank" rel="noopener">블로그</a></td>
+              </tr>
+              <tr data-region="전북" data-difficulty="mid">
+                <td>전북</td>
+                <td><strong>내장산</strong><br><span class="help-text" style="margin:0">서래봉코스(일주문~벽련암~서래봉~불출봉~원적암~내장사 순환)</span></td>
+                <td class="num">5.9(순환)</td>
+                <td class="num">약 4시간</td>
+                <td class="num">624(서래봉)</td>
+                <td><span class="difficulty-badge mid">보통</span></td>
+                <td><a href="https://koreahike.com/%EB%82%B4%EC%9E%A5%EC%82%B0-%EB%93%B1%EC%82%B0%EC%BD%94%EC%8A%A4/" target="_blank" rel="noopener">블로그</a></td>
+              </tr>
+              <tr data-region="전북" data-difficulty="unknown">
+                <td>전북</td>
+                <td><strong>덕유산</strong><br><span class="help-text" style="margin:0">구천동계곡~향적봉 코스(삼공리 출발)</span></td>
+                <td class="num">9(편도)</td>
+                <td class="num">약 4시간</td>
+                <td class="num">1614(향적봉)</td>
+                <td><span class="difficulty-badge unknown">확인필요</span></td>
+                <td><a href="https://tour.muju.go.kr/tour/selectTourCntntsDetail.do?key=731&amp;tourNo=243" target="_blank" rel="noopener">지자체공식</a></td>
+              </tr>
+              <tr data-region="전북" data-difficulty="unknown">
+                <td>전북</td>
+                <td><strong>모악산</strong><br><span class="help-text" style="margin:0">3코스(관리사무소~정상)</span></td>
+                <td class="num">3.4(편도)</td>
+                <td class="num">약 1시간 30분</td>
+                <td class="num">795.2</td>
+                <td><span class="difficulty-badge unknown">확인필요</span></td>
+                <td><a href="https://www.wanju.go.kr/tour/index.9is?contentUid=ff8080818c5d9e6d018ca46557c568d5" target="_blank" rel="noopener">지자체공식</a></td>
+              </tr>
+              <tr data-region="전북" data-difficulty="unknown">
+                <td>전북</td>
+                <td><strong>마이산</strong><br><span class="help-text" style="margin:0">탐방로코스(남부주차장~탑사~은수사~북부주차장)</span></td>
+                <td class="num">3.3(편도)</td>
+                <td class="num">1시간 30분</td>
+                <td class="num">687(암마이봉)</td>
+                <td><span class="difficulty-badge unknown">확인필요</span></td>
+                <td><a href="https://www.jinan.go.kr/maisan/index.jinan?menuCd=DOM_000001104001000000" target="_blank" rel="noopener">지자체공식</a></td>
+              </tr>
+              <tr data-region="전북" data-difficulty="mid">
+                <td>전북</td>
+                <td><strong>선운산</strong><br><span class="help-text" style="margin:0">1코스 최단코스(관광안내소~선운사~도솔암~마애불~용문굴~낙조대~천마봉)</span></td>
+                <td class="num">4.7(편도, 왕복 약 3시간)</td>
+                <td class="num">1시간 30분</td>
+                <td class="num">336</td>
+                <td><span class="difficulty-badge mid">보통</span></td>
+                <td><a href="https://koreahike.com/%EC%84%A0%EC%9A%B4%EC%82%B0-%EB%93%B1%EC%82%B0%EC%BD%94%EC%8A%A4/" target="_blank" rel="noopener">블로그</a></td>
+              </tr>
+              <tr data-region="전북" data-difficulty="mid">
+                <td>전북</td>
+                <td><strong>지리산(남원 뱀사골)</strong><br><span class="help-text" style="margin:0">뱀사골계곡코스(반선~화개재)</span></td>
+                <td class="num">9.2(편도)</td>
+                <td class="num">4시간 30분</td>
+                <td class="num">1316(화개재)</td>
+                <td><span class="difficulty-badge mid">보통</span></td>
+                <td><a href="https://ohiking.today/mountain_course/73" target="_blank" rel="noopener">블로그</a></td>
+              </tr>
+              <tr data-region="전북" data-difficulty="mid">
+                <td>전북</td>
+                <td><strong>변산(내변산)</strong><br><span class="help-text" style="margin:0">내변산 직소폭포코스(직소폭포~관음봉)</span></td>
+                <td class="num">4.0(편도)</td>
+                <td class="num">2시간</td>
+                <td class="num">424(관음봉)</td>
+                <td><span class="difficulty-badge mid">보통</span></td>
+                <td><a href="https://ohiking.today/mountain_course/409" target="_blank" rel="noopener">블로그</a></td>
+              </tr>
+              <tr data-region="전남" data-difficulty="mid">
+                <td>전남</td>
+                <td><strong>월출산</strong><br><span class="help-text" style="margin:0">천황지구 순환코스(구름다리~천황봉)</span></td>
+                <td class="num">6.7(순환)</td>
+                <td class="num">4시간</td>
+                <td class="num">809(천황봉)</td>
+                <td><span class="difficulty-badge mid">보통</span></td>
+                <td><a href="https://www.knps.or.kr/archive/s/site/item/4032" target="_blank" rel="noopener">국립공원공단</a></td>
+              </tr>
+              <tr data-region="전남" data-difficulty="easy">
+                <td>전남</td>
+                <td><strong>조계산</strong><br><span class="help-text" style="margin:0">송광사~마당재~정상~선암사 코스</span></td>
+                <td class="num">10.5(편도)</td>
+                <td class="num">3~4시간</td>
+                <td class="num">887(장군봉)</td>
+                <td><span class="difficulty-badge easy">쉬움</span></td>
+                <td><a href="https://korean.visitkorea.or.kr/detail/rem_detail.do?cotid=69925fdc-3727-4bee-9698-72fe7274a682" target="_blank" rel="noopener">한국관광공사</a></td>
+              </tr>
+              <tr data-region="전남" data-difficulty="unknown">
+                <td>전남</td>
+                <td><strong>지리산(구례 노고단)</strong><br><span class="help-text" style="margin:0">노고단코스(성삼재~노고단대피소~노고단정상)</span></td>
+                <td class="num">3.1(편도, 근사치)</td>
+                <td class="num">1시간 20분</td>
+                <td class="num">1507(노고단)</td>
+                <td><span class="difficulty-badge unknown">확인필요</span></td>
+                <td><a href="https://reservation.knps.or.kr/contents/T/serviceGuide.do?prdDvcd=T&amp;parkId=B01&amp;vrteId=TB013XXX01" target="_blank" rel="noopener">국립공원공단</a></td>
+              </tr>
+              <tr data-region="전남" data-difficulty="unknown">
+                <td>전남</td>
+                <td><strong>천관산</strong><br><span class="help-text" style="margin:0">코스1(양근암 코스)</span></td>
+                <td class="num">2.5(편도)</td>
+                <td class="num">1시간 30분</td>
+                <td class="num">723(연대봉)</td>
+                <td><span class="difficulty-badge unknown">확인필요</span></td>
+                <td><a href="https://www.jangheung.go.kr/tour/attractions/main_areas/cheongwan_mountain" target="_blank" rel="noopener">지자체공식</a></td>
+              </tr>
+              <tr data-region="전남" data-difficulty="unknown">
+                <td>전남</td>
+                <td><strong>두륜산</strong><br><span class="help-text" style="margin:0">1코스(대흥사~오심재~노승봉~가련봉~만일재~두륜봉~진불암~표충사)</span></td>
+                <td class="num">5.85(편도)</td>
+                <td class="num">4시간 30분(일반인 기준)</td>
+                <td class="num">703(가련봉)</td>
+                <td><span class="difficulty-badge unknown">확인필요</span></td>
+                <td><a href="https://www.duryunsan.kr/bbs/content.php?co_id=duryun6_1&amp;device=pc" target="_blank" rel="noopener">지자체공식</a></td>
+              </tr>
+              <tr data-region="전남" data-difficulty="unknown">
+                <td>전남</td>
+                <td><strong>팔영산</strong><br><span class="help-text" style="margin:0">팔영산야영장코스(야영장~흔들바위~유영봉~적취봉~탑재~야영장)</span></td>
+                <td class="num">6(순환)</td>
+                <td class="num">3시간 40분</td>
+                <td class="num">608(깃대봉)</td>
+                <td><span class="difficulty-badge unknown">확인필요</span></td>
+                <td><a href="https://reservation.knps.or.kr/contents/T/serviceGuide.do?prdDvcd=T&amp;parkId=B09&amp;vrteId=TB091XXX01" target="_blank" rel="noopener">국립공원공단</a></td>
+              </tr>
+              <tr data-region="전남" data-difficulty="unknown">
+                <td>전남</td>
+                <td><strong>무등산(화순방면)</strong><br><span class="help-text" style="margin:0">도원마을~규봉코스(도원마을~장불재~규봉~도원마을)</span></td>
+                <td class="num">7.5(순환)</td>
+                <td class="num">4시간 30분</td>
+                <td class="num">850(규봉암)</td>
+                <td><span class="difficulty-badge unknown">확인필요</span></td>
+                <td><a href="https://mountainandcamp.com/%EB%AC%B4%EB%93%B1%EC%82%B0-%EB%93%B1%EC%82%B0-%EC%BD%94%EC%8A%A4-%EC%A0%95%EB%A6%AC%EC%B4%88%EB%B3%B4%EC%9E%90-%EC%BD%94%EC%8A%A4%EB%B6%80%ED%84%B0-%EC%83%81%EA%B8%89%EC%9E%90-%EC%BD%94%EC%8A%A4-2/" target="_blank" rel="noopener">블로그</a></td>
+              </tr>
+              <tr data-region="전남" data-difficulty="unknown">
+                <td>전남</td>
+                <td><strong>백운산</strong><br><span class="help-text" style="margin:0">제5코스(성불교~형제봉~도솔봉~한재~신선대~정상)</span></td>
+                <td class="num">11.9(편도)</td>
+                <td class="num">6시간 10분</td>
+                <td class="num">1222</td>
+                <td><span class="difficulty-badge unknown">확인필요</span></td>
+                <td><a href="https://gwangyang.go.kr/menu.es?mid=a31103020000" target="_blank" rel="noopener">지자체공식</a></td>
+              </tr>
+              <tr data-region="경북" data-difficulty="mid">
+                <td>경북</td>
+                <td><strong>주왕산</strong><br><span class="help-text" style="margin:0">주왕계곡코스(원점회귀)</span></td>
+                <td class="num">10.6</td>
+                <td class="num">4시간 20분</td>
+                <td class="num">721</td>
+                <td><span class="difficulty-badge mid">보통</span></td>
+                <td><a href="https://www.knps.or.kr/front/portal/visit/visitCourseSubMain.do?parkId=121000&amp;parkNavGb=guide&amp;menuNo=7020099" target="_blank" rel="noopener">국립공원공단</a></td>
+              </tr>
+              <tr data-region="경북" data-difficulty="mid">
+                <td>경북</td>
+                <td><strong>가야산</strong><br><span class="help-text" style="margin:0">백운동~서성재~칠불봉 코스</span></td>
+                <td class="num">4.4(편도)</td>
+                <td class="num">1시간 53분</td>
+                <td class="num">1430</td>
+                <td><span class="difficulty-badge mid">보통</span></td>
+                <td><a href="https://www.knps.or.kr/front/portal/visit/visitCourseSubMain.do?parkId=120700&amp;parkNavGb=park&amp;menuNo=7020084" target="_blank" rel="noopener">국립공원공단</a></td>
+              </tr>
+              <tr data-region="경북" data-difficulty="mid">
+                <td>경북</td>
+                <td><strong>청량산</strong><br><span class="help-text" style="margin:0">3코스(입석~하늘다리~장인봉)</span></td>
+                <td class="num">5.1</td>
+                <td class="num">5시간</td>
+                <td class="num">870</td>
+                <td><span class="difficulty-badge mid">보통</span></td>
+                <td><a href="https://landyplay.com/봉화-가볼만한곳-청량산-도립공원-하늘다리-등산코/" target="_blank" rel="noopener">블로그</a></td>
+              </tr>
+              <tr data-region="경북" data-difficulty="mid">
+                <td>경북</td>
+                <td><strong>소백산</strong><br><span class="help-text" style="margin:0">어의곡~비로봉 코스</span></td>
+                <td class="num">5.1(편도)</td>
+                <td class="num">2시간 40분(편도)</td>
+                <td class="num">1439</td>
+                <td><span class="difficulty-badge mid">보통</span></td>
+                <td><a href="https://m.knps.or.kr/curs/curs_list.do?menuId=4&amp;parkId=121600" target="_blank" rel="noopener">국립공원공단</a></td>
+              </tr>
+              <tr data-region="경북" data-difficulty="mid">
+                <td>경북</td>
+                <td><strong>속리산</strong><br><span class="help-text" style="margin:0">문장대1코스(화북~문장대)</span></td>
+                <td class="num">3.1(편도)</td>
+                <td class="num">2시간 30분</td>
+                <td class="num">1054</td>
+                <td><span class="difficulty-badge mid">보통</span></td>
+                <td><a href="https://www.knps.or.kr/front/portal/visit/visitCourseSubMain.do?parkId=120500&amp;parkNavGb=guide&amp;menuNo=7020095" target="_blank" rel="noopener">국립공원공단</a></td>
+              </tr>
+              <tr data-region="경북" data-difficulty="mid">
+                <td>경북</td>
+                <td><strong>문경새재(조령산)</strong><br><span class="help-text" style="margin:0">문경새재 옛길(제1관문~제3관문)</span></td>
+                <td class="num">6.5(편도)</td>
+                <td class="num">왕복 약 4시간</td>
+                <td class="num">650</td>
+                <td><span class="difficulty-badge mid">보통</span></td>
+                <td><a href="https://korean.visitkorea.or.kr/detail/rem_detail.do?cotid=31fa8246-f1a4-4a36-a659-a3d00084551a" target="_blank" rel="noopener">한국관광공사</a></td>
+              </tr>
+              <tr data-region="경북" data-difficulty="mid">
+                <td>경북</td>
+                <td><strong>주흘산</strong><br><span class="help-text" style="margin:0">제1관문~혜국사~주봉~영봉~제2관문 코스</span></td>
+                <td class="num">14.5</td>
+                <td class="num">6시간</td>
+                <td class="num">1106</td>
+                <td><span class="difficulty-badge mid">보통</span></td>
+                <td><a href="https://v.daum.net/v/20260121185950475" target="_blank" rel="noopener">블로그</a></td>
+              </tr>
+              <tr data-region="경북" data-difficulty="mid">
+                <td>경북</td>
+                <td><strong>금오산</strong><br><span class="help-text" style="margin:0">제1코스(금오산성~대혜폭포)</span></td>
+                <td class="num">4</td>
+                <td class="num">2시간 20분</td>
+                <td class="num">976</td>
+                <td><span class="difficulty-badge mid">보통</span></td>
+                <td><a href="https://landyplay.com/구미-금오산-등산코스-제2주차장-대혜폭포-약사암-현월봉-주/" target="_blank" rel="noopener">블로그</a></td>
+              </tr>
+              <tr data-region="경북" data-difficulty="mid">
+                <td>경북</td>
+                <td><strong>운문산</strong><br><span class="help-text" style="margin:0">상양마을~아랫재 코스(원점회귀)</span></td>
+                <td class="num">8.5~9.2</td>
+                <td class="num">4~4.5시간</td>
+                <td class="num">1188</td>
+                <td><span class="difficulty-badge mid">보통</span></td>
+                <td><a href="https://mountainhousestudios.com/운문산-등산코스/" target="_blank" rel="noopener">블로그</a></td>
+              </tr>
+              <tr data-region="경북" data-difficulty="mid">
+                <td>경북</td>
+                <td><strong>팔공산</strong><br><span class="help-text" style="margin:0">선본사~관봉(갓바위) 코스</span></td>
+                <td class="num">4(왕복)</td>
+                <td class="num">2시간 30분</td>
+                <td class="num">850</td>
+                <td><span class="difficulty-badge mid">보통</span></td>
+                <td><a href="https://gossv.com/network/팔공산국립공원-선본사-갓바위-최단-코스-관음휴게소-경산방향/" target="_blank" rel="noopener">블로그</a></td>
+              </tr>
+              <tr data-region="대구" data-difficulty="mid">
+                <td>대구</td>
+                <td><strong>팔공산</strong><br><span class="help-text" style="margin:0">수태골~동봉(비로봉) 코스</span></td>
+                <td class="num">9.6(왕복)</td>
+                <td class="num">5시간</td>
+                <td class="num">1193</td>
+                <td><span class="difficulty-badge mid">보통</span></td>
+                <td><a href="https://happydogather.com/155" target="_blank" rel="noopener">블로그</a></td>
+              </tr>
+              <tr data-region="대구" data-difficulty="mid">
+                <td>대구</td>
+                <td><strong>비슬산</strong><br><span class="help-text" style="margin:0">유가사 원점회귀 코스(도성암~정상~대견사)</span></td>
+                <td class="num">7~8(왕복)</td>
+                <td class="num">3~4시간</td>
+                <td class="num">1084</td>
+                <td><span class="difficulty-badge mid">보통</span></td>
+                <td><a href="https://biseul.kr/course1" target="_blank" rel="noopener">지자체공식</a></td>
+              </tr>
+              <tr data-region="대구" data-difficulty="mid">
+                <td>대구</td>
+                <td><strong>앞산</strong><br><span class="help-text" style="margin:0">케이블카~정상~전망대~안일사 코스</span></td>
+                <td class="num">3.4(편도)</td>
+                <td class="num">2~3시간</td>
+                <td class="num">658.7</td>
+                <td><span class="difficulty-badge mid">보통</span></td>
+                <td><a href="https://www.welfarehello.com/community/hometownNews/앞산전망대-등산-코스-및-등반-후기-39172674-78d7-4eff-b968-41bcb4ab175e" target="_blank" rel="noopener">블로그</a></td>
+              </tr>
+              <tr data-region="경남" data-difficulty="hard">
+                <td>경남</td>
+                <td><strong>지리산</strong><br><span class="help-text" style="margin:0">중산리~천왕봉(칼바위-로타리대피소-개선문)</span></td>
+                <td class="num">5.5(편도)</td>
+                <td class="num">3시간</td>
+                <td class="num">1915</td>
+                <td><span class="difficulty-badge hard">어려움</span></td>
+                <td><a href="https://www.knps.or.kr/front/portal/visit/visitCourseMain.do?parkId=120100&amp;menuNo=7020100" target="_blank" rel="noopener">국립공원공단</a></td>
+              </tr>
+              <tr data-region="경남" data-difficulty="mid">
+                <td>경남</td>
+                <td><strong>가야산</strong><br><span class="help-text" style="margin:0">해인사(홍류동계곡) 코스</span></td>
+                <td class="num">7.8(왕복)</td>
+                <td class="num">3시간 30분</td>
+                <td class="num">1430</td>
+                <td><span class="difficulty-badge mid">보통</span></td>
+                <td><a href="https://www.hiking-beginner.com/trail/gayasan-hongryudong" target="_blank" rel="noopener">블로그</a></td>
+              </tr>
+              <tr data-region="경남" data-difficulty="easy">
+                <td>경남</td>
+                <td><strong>황매산</strong><br><span class="help-text" style="margin:0">모산재 코스</span></td>
+                <td class="num">3.5</td>
+                <td class="num">1시간 30분</td>
+                <td class="num">1113</td>
+                <td><span class="difficulty-badge easy">쉬움</span></td>
+                <td><a href="https://www.hiking-beginner.com/trail/hwangmaesan-mosanjae" target="_blank" rel="noopener">블로그</a></td>
+              </tr>
+              <tr data-region="경남" data-difficulty="mid">
+                <td>경남</td>
+                <td><strong>무학산</strong><br><span class="help-text" style="margin:0">서원곡 원점회귀 코스</span></td>
+                <td class="num">5.72</td>
+                <td class="num">3시간 20분</td>
+                <td class="num">761</td>
+                <td><span class="difficulty-badge mid">보통</span></td>
+                <td><a href="https://culture.changwon.go.kr/index.changwon?menuId=12050200" target="_blank" rel="noopener">지자체공식</a></td>
+              </tr>
+              <tr data-region="경남" data-difficulty="mid">
+                <td>경남</td>
+                <td><strong>천황산</strong><br><span class="help-text" style="margin:0">얼음골케이블카~천황산 코스</span></td>
+                <td class="num">3.5(왕복)</td>
+                <td class="num">2시간(왕복)</td>
+                <td class="num">1189</td>
+                <td><span class="difficulty-badge mid">보통</span></td>
+                <td><a href="https://www.miryang.go.kr/tur/index.do?mnNo=60205000000" target="_blank" rel="noopener">지자체공식</a></td>
+              </tr>
+              <tr data-region="경남" data-difficulty="mid">
+                <td>경남</td>
+                <td><strong>재약산</strong><br><span class="help-text" style="margin:0">표충사~사자평~재약산~천황산 코스</span></td>
+                <td class="num">9.5</td>
+                <td class="num">5시간</td>
+                <td class="num">1108</td>
+                <td><span class="difficulty-badge mid">보통</span></td>
+                <td><a href="https://www.miryang.go.kr/tur/index.do?mnNo=10301020000" target="_blank" rel="noopener">지자체공식</a></td>
+              </tr>
+              <tr data-region="경남" data-difficulty="easy">
+                <td>경남</td>
+                <td><strong>신어산</strong><br><span class="help-text" style="margin:0">A코스(광장~은하사~정상)</span></td>
+                <td class="num">2.4</td>
+                <td class="num">1시간 30분</td>
+                <td class="num">631</td>
+                <td><span class="difficulty-badge easy">쉬움</span></td>
+                <td><a href="https://www.gimhae.go.kr/00204/03660/00216.web?amode=view&amp;idx=313" target="_blank" rel="noopener">지자체공식</a></td>
+              </tr>
+              <tr data-region="경남" data-difficulty="mid">
+                <td>경남</td>
+                <td><strong>화왕산</strong><br><span class="help-text" style="margin:0">자하곡 전망대 코스</span></td>
+                <td class="num">3.3</td>
+                <td class="num">1시간 50분</td>
+                <td class="num">756</td>
+                <td><span class="difficulty-badge mid">보통</span></td>
+                <td><a href="https://www.cng.go.kr/01658/02073/03138.web" target="_blank" rel="noopener">지자체공식</a></td>
+              </tr>
+              <tr data-region="경남" data-difficulty="easy">
+                <td>경남</td>
+                <td><strong>금산</strong><br><span class="help-text" style="margin:0">1코스(금산탐방지원센터~보리암~정상)</span></td>
+                <td class="num">확인필요</td>
+                <td class="num">확인필요</td>
+                <td class="num">705</td>
+                <td><span class="difficulty-badge easy">쉬움</span></td>
+                <td><a href="https://koreahike.com/namhae-geumsan-hiking-guide/" target="_blank" rel="noopener">블로그</a></td>
+              </tr>
+              <tr data-region="부산" data-difficulty="mid">
+                <td>부산</td>
+                <td><strong>금정산</strong><br><span class="help-text" style="margin:0">범어사~청련암~고당봉 코스</span></td>
+                <td class="num">3.7(편도)</td>
+                <td class="num">약 1시간(편도)</td>
+                <td class="num">801</td>
+                <td><span class="difficulty-badge mid">보통</span></td>
+                <td><a href="https://hyunpost.com/금정산-등산코스-및-고당봉-최단코스-추천-범어사-북/" target="_blank" rel="noopener">블로그</a></td>
+              </tr>
+              <tr data-region="부산" data-difficulty="mid">
+                <td>부산</td>
+                <td><strong>장산</strong><br><span class="help-text" style="margin:0">대천공원~장산 정상 코스</span></td>
+                <td class="num">확인필요</td>
+                <td class="num">약 3시간(왕복)</td>
+                <td class="num">634</td>
+                <td><span class="difficulty-badge mid">보통</span></td>
+                <td><a href="https://www.haeundae.go.kr/jangsanlocalpark/index.do" target="_blank" rel="noopener">지자체공식</a></td>
+              </tr>
+              <tr data-region="부산" data-difficulty="easy">
+                <td>부산</td>
+                <td><strong>황령산</strong><br><span class="help-text" style="margin:0">수영구국민체육센터~봉수대 코스</span></td>
+                <td class="num">확인필요</td>
+                <td class="num">약 2시간(왕복)</td>
+                <td class="num">428</td>
+                <td><span class="difficulty-badge easy">쉬움</span></td>
+                <td><a href="https://here.busan.com/bbs/board.php?bo_table=trip_guide&amp;wr_id=74297" target="_blank" rel="noopener">블로그</a></td>
+              </tr>
+              <tr data-region="부산" data-difficulty="easy">
+                <td>부산</td>
+                <td><strong>이기대</strong><br><span class="help-text" style="margin:0">해안산책로(동생말~오륙도)</span></td>
+                <td class="num">4.7</td>
+                <td class="num">2시간 30분</td>
+                <td class="num">확인필요(해안코스)</td>
+                <td><span class="difficulty-badge easy">쉬움</span></td>
+                <td><a href="https://www.busan.go.kr/news/totalnews01/view?dataNo=64143&amp;gugun=Next" target="_blank" rel="noopener">지자체공식</a></td>
+              </tr>
+              <tr data-region="부산" data-difficulty="mid">
+                <td>부산</td>
+                <td><strong>백양산</strong><br><span class="help-text" style="margin:0">1코스(만덕동 코스)</span></td>
+                <td class="num">확인필요</td>
+                <td class="num">2시간 25분</td>
+                <td class="num">642</td>
+                <td><span class="difficulty-badge mid">보통</span></td>
+                <td><a href="https://www.bsbukgu.go.kr/tour/index.bsbukgu?menuCd=DOM_000000403007002001" target="_blank" rel="noopener">지자체공식</a></td>
+              </tr>
+              <tr data-region="울산" data-difficulty="mid">
+                <td>울산</td>
+                <td><strong>신불산</strong><br><span class="help-text" style="margin:0">영남알프스 완등인증센터~간월재~신불산 코스</span></td>
+                <td class="num">확인필요</td>
+                <td class="num">5시간(왕복)</td>
+                <td class="num">1159</td>
+                <td><span class="difficulty-badge mid">보통</span></td>
+                <td><a href="https://ohiking.today/mountain_course/502" target="_blank" rel="noopener">블로그</a></td>
+              </tr>
+              <tr data-region="울산" data-difficulty="mid">
+                <td>울산</td>
+                <td><strong>간월산</strong><br><span class="help-text" style="margin:0">간월산장~간월재~간월산 정상 코스</span></td>
+                <td class="num">7.4(왕복)</td>
+                <td class="num">3시간 20분(왕복)</td>
+                <td class="num">1069</td>
+                <td><span class="difficulty-badge mid">보통</span></td>
+                <td><a href="https://ulsan.grandculture.net/Contents/Contents?dataType=01&amp;contents_id=GC80050540" target="_blank" rel="noopener">블로그</a></td>
+              </tr>
+              <tr data-region="울산" data-difficulty="easy">
+                <td>울산</td>
+                <td><strong>문수산</strong><br><span class="help-text" style="margin:0">전망대~문수사~정상 코스</span></td>
+                <td class="num">확인필요</td>
+                <td class="num">편도 약 1시간(왕복 약 2시간 30분)</td>
+                <td class="num">599.8</td>
+                <td><span class="difficulty-badge easy">쉬움</span></td>
+                <td><a href="https://www.welfarehello.com/community/hometownNews/88dc7a2c-e36d-418f-92cd-9be0b6e1b259" target="_blank" rel="noopener">블로그</a></td>
+              </tr>
+              <tr data-region="제주" data-difficulty="unknown">
+                <td>제주</td>
+                <td><strong>한라산</strong><br><span class="help-text" style="margin:0">성판악 코스</span></td>
+                <td class="num">9.6(편도)</td>
+                <td class="num">편도 4시간 30분(왕복 약9시간)</td>
+                <td class="num">1950(백록담)</td>
+                <td><span class="difficulty-badge unknown">확인필요</span></td>
+                <td><a href="https://visithalla.jeju.go.kr/contents/contents.do?id=61" target="_blank" rel="noopener">지자체공식</a></td>
+              </tr>
+              <tr data-region="제주" data-difficulty="unknown">
+                <td>제주</td>
+                <td><strong>한라산</strong><br><span class="help-text" style="margin:0">관음사 코스</span></td>
+                <td class="num">8.7(편도)</td>
+                <td class="num">편도 5시간(왕복 약10시간)</td>
+                <td class="num">1950(백록담)</td>
+                <td><span class="difficulty-badge unknown">확인필요</span></td>
+                <td><a href="https://visithalla.jeju.go.kr/contents/contents.do?id=62" target="_blank" rel="noopener">지자체공식</a></td>
+              </tr>
+              <tr data-region="제주" data-difficulty="unknown">
+                <td>제주</td>
+                <td><strong>한라산</strong><br><span class="help-text" style="margin:0">영실 코스</span></td>
+                <td class="num">5.8(영실~남벽분기점)</td>
+                <td class="num">편도 2시간 30분~3시간 15분</td>
+                <td class="num">1600(남벽분기점, 정상 미연결)</td>
+                <td><span class="difficulty-badge unknown">확인필요</span></td>
+                <td><a href="https://www.jeju.go.kr/hallasan/info/info/realtime/course02.htm" target="_blank" rel="noopener">지자체공식</a></td>
+              </tr>
+              <tr data-region="제주" data-difficulty="unknown">
+                <td>제주</td>
+                <td><strong>한라산</strong><br><span class="help-text" style="margin:0">어리목 코스</span></td>
+                <td class="num">6.8(어리목~남벽분기점)</td>
+                <td class="num">편도 3시간(윗세오름까지 2시간)</td>
+                <td class="num">1600(남벽분기점)</td>
+                <td><span class="difficulty-badge unknown">확인필요</span></td>
+                <td><a href="https://www.jeju.go.kr/hallasan/info/info/realtime/course01.htm" target="_blank" rel="noopener">지자체공식</a></td>
+              </tr>
+              <tr data-region="제주" data-difficulty="mid">
+                <td>제주</td>
+                <td><strong>한라산</strong><br><span class="help-text" style="margin:0">돈내코 코스</span></td>
+                <td class="num">7.0(돈내코~남벽분기점)</td>
+                <td class="num">편도 3시간 30분</td>
+                <td class="num">1600(남벽분기점)</td>
+                <td><span class="difficulty-badge mid">보통</span></td>
+                <td><a href="https://www.jeju.go.kr/hallasan/info/info/realtime/course04.htm" target="_blank" rel="noopener">지자체공식</a></td>
+              </tr>
+              <tr data-region="제주" data-difficulty="unknown">
+                <td>제주</td>
+                <td><strong>한라산</strong><br><span class="help-text" style="margin:0">어승생악 코스</span></td>
+                <td class="num">1.3(편도)</td>
+                <td class="num">편도 약 30분</td>
+                <td class="num">1169</td>
+                <td><span class="difficulty-badge unknown">확인필요</span></td>
+                <td><a href="https://www.jeju.go.kr/hallasan/info/info/realtime/course03.htm" target="_blank" rel="noopener">지자체공식</a></td>
+              </tr>
+              <tr data-region="제주" data-difficulty="unknown">
+                <td>제주</td>
+                <td><strong>용눈이오름</strong><br><span class="help-text" style="margin:0">용눈이오름 순환 코스</span></td>
+                <td class="num">확인필요</td>
+                <td class="num">왕복 약 1시간(정상까지 편도 15~20분)</td>
+                <td class="num">247.8</td>
+                <td><span class="difficulty-badge unknown">확인필요</span></td>
+                <td><a href="https://korean.visitkorea.or.kr/detail/ms_detail.do?cotid=5429c4dc-e53a-4f15-a02d-061927bdf791" target="_blank" rel="noopener">한국관광공사</a></td>
+              </tr>
+              <tr data-region="제주" data-difficulty="unknown">
+                <td>제주</td>
+                <td><strong>백약이오름</strong><br><span class="help-text" style="margin:0">백약이오름 정상 굼부리 코스</span></td>
+                <td class="num">확인필요(출처마다 불일치)</td>
+                <td class="num">편도 약 30분</td>
+                <td class="num">356.9</td>
+                <td><span class="difficulty-badge unknown">확인필요</span></td>
+                <td><a href="https://korean.visitkorea.or.kr/detail/ms_detail.do?cotid=79efa4b6-67d8-4f02-9b7f-2f57a4196a84" target="_blank" rel="noopener">한국관광공사</a></td>
+              </tr>
+              <tr data-region="제주" data-difficulty="unknown">
+                <td>제주</td>
+                <td><strong>새별오름</strong><br><span class="help-text" style="margin:0">새별오름 정상 코스</span></td>
+                <td class="num">확인필요</td>
+                <td class="num">편도 약 20~30분(왕복 약40분~1시간)</td>
+                <td class="num">519.3</td>
+                <td><span class="difficulty-badge unknown">확인필요</span></td>
+                <td><a href="https://www.visitjeju.net/kr/detail/view?contentsid=CONT_000000000500309" target="_blank" rel="noopener">지자체공식</a></td>
+              </tr>
+              <tr data-region="강원" data-difficulty="mid">
+                <td>강원</td>
+                <td><strong>설악산</strong><br><span class="help-text" style="margin:0">대청봉코스(오색)</span></td>
+                <td class="num">5(편도)</td>
+                <td class="num">4시간</td>
+                <td class="num">1708</td>
+                <td><span class="difficulty-badge mid">보통</span></td>
+                <td><a href="https://korean.visitkorea.or.kr/detail/ms_detail.do?cotid=d4dde838-8f19-4ef5-a9fc-91b719316289" target="_blank" rel="noopener">한국관광공사</a></td>
+              </tr>
+              <tr data-region="강원" data-difficulty="mid">
+                <td>강원</td>
+                <td><strong>설악산</strong><br><span class="help-text" style="margin:0">대청봉코스(한계령)</span></td>
+                <td class="num">8.3(편도)</td>
+                <td class="num">5시간 20분</td>
+                <td class="num">1708</td>
+                <td><span class="difficulty-badge mid">보통</span></td>
+                <td><a href="https://korean.visitkorea.or.kr/detail/ms_detail.do?cotid=d4dde838-8f19-4ef5-a9fc-91b719316289" target="_blank" rel="noopener">한국관광공사</a></td>
+              </tr>
+              <tr data-region="강원" data-difficulty="unknown">
+                <td>강원</td>
+                <td><strong>설악산</strong><br><span class="help-text" style="margin:0">울산바위코스</span></td>
+                <td class="num">7.6(왕복)</td>
+                <td class="num">4시간</td>
+                <td class="num">약900(확인필요)</td>
+                <td><span class="difficulty-badge unknown">확인필요</span></td>
+                <td><a href="https://travelpig.kr/%EC%9A%B8%EC%82%B0%EB%B0%94%EC%9C%84%EC%BD%94%EC%8A%A4/" target="_blank" rel="noopener">블로그</a></td>
+              </tr>
+              <tr data-region="강원" data-difficulty="unknown">
+                <td>강원</td>
+                <td><strong>오대산</strong><br><span class="help-text" style="margin:0">비로봉코스</span></td>
+                <td class="num">3.4(편도, 왕복 6.8)</td>
+                <td class="num">1시간 40분(왕복 3시간10~30분)</td>
+                <td class="num">1563</td>
+                <td><span class="difficulty-badge unknown">확인필요</span></td>
+                <td><a href="https://ohiking.today/mountain_course/373" target="_blank" rel="noopener">블로그</a></td>
+              </tr>
+              <tr data-region="강원" data-difficulty="unknown">
+                <td>강원</td>
+                <td><strong>오대산</strong><br><span class="help-text" style="margin:0">소금강코스(노인봉)</span></td>
+                <td class="num">13.3(편도)</td>
+                <td class="num">7~8시간</td>
+                <td class="num">1338(노인봉)</td>
+                <td><span class="difficulty-badge unknown">확인필요</span></td>
+                <td><a href="https://p-arttv.com/entry/오대산-소금강산-코스-교통편-실시간-날씨-확인하기" target="_blank" rel="noopener">블로그</a></td>
+              </tr>
+              <tr data-region="강원" data-difficulty="unknown">
+                <td>강원</td>
+                <td><strong>치악산</strong><br><span class="help-text" style="margin:0">구룡사코스(비로봉)</span></td>
+                <td class="num">5.7(왕복)</td>
+                <td class="num">3시간 30분</td>
+                <td class="num">1288</td>
+                <td><span class="difficulty-badge unknown">확인필요</span></td>
+                <td><a href="https://hikermin.com/entry/치악산-비로봉-최단코스-정리-거리-시간-난이도-단풍절정시기" target="_blank" rel="noopener">블로그</a></td>
+              </tr>
+              <tr data-region="강원" data-difficulty="unknown">
+                <td>강원</td>
+                <td><strong>태백산</strong><br><span class="help-text" style="margin:0">유일사코스(천제단)</span></td>
+                <td class="num">7.5(편도, 유일사~당골)</td>
+                <td class="num">4시간~4시간 30분</td>
+                <td class="num">1567(장군봉)/1554(천제단)</td>
+                <td><span class="difficulty-badge unknown">확인필요</span></td>
+                <td><a href="https://p-arttv.com/entry/태백산-등산-코스-소개-및-가는-방법" target="_blank" rel="noopener">블로그</a></td>
+              </tr>
+              <tr data-region="강원" data-difficulty="unknown">
+                <td>강원</td>
+                <td><strong>계방산</strong><br><span class="help-text" style="margin:0">운두령코스</span></td>
+                <td class="num">8.2(왕복)</td>
+                <td class="num">약 4시간</td>
+                <td class="num">1577</td>
+                <td><span class="difficulty-badge unknown">확인필요</span></td>
+                <td><a href="https://koreahike.com/gyebangsan-hiking-guide/" target="_blank" rel="noopener">블로그</a></td>
+              </tr>
+              <tr data-region="강원" data-difficulty="mid">
+                <td>강원</td>
+                <td><strong>민둥산</strong><br><span class="help-text" style="margin:0">정상코스(완경사)</span></td>
+                <td class="num">3.2(편도)</td>
+                <td class="num">약 1시간 40분</td>
+                <td class="num">1119</td>
+                <td><span class="difficulty-badge mid">보통</span></td>
+                <td><a href="https://www.jeongseon.go.kr/tour/jeongseontour/attractions?contentSeq=163361&amp;mode=read" target="_blank" rel="noopener">지자체공식</a></td>
+              </tr>
+              <tr data-region="강원" data-difficulty="unknown">
+                <td>강원</td>
+                <td><strong>삼악산</strong><br><span class="help-text" style="margin:0">의암댐매표소코스</span></td>
+                <td class="num">6(왕복)</td>
+                <td class="num">3시간</td>
+                <td class="num">654</td>
+                <td><span class="difficulty-badge unknown">확인필요</span></td>
+                <td><a href="https://www.cuc.or.kr/samak.do" target="_blank" rel="noopener">지자체공식</a></td>
+              </tr>
+              <tr data-region="강원" data-difficulty="unknown">
+                <td>강원</td>
+                <td><strong>팔봉산</strong><br><span class="help-text" style="margin:0">C코스(8봉 종주)</span></td>
+                <td class="num">2.6</td>
+                <td class="num">3시간 30분</td>
+                <td class="num">327.4(산림청 기준, 관광자료 302)</td>
+                <td><span class="difficulty-badge unknown">확인필요</span></td>
+                <td><a href="https://www.hongcheon.go.kr/palbong/contents.do?key=1172" target="_blank" rel="noopener">지자체공식</a></td>
+              </tr>
+              <tr data-region="강원" data-difficulty="mid">
+                <td>강원</td>
+                <td><strong>방태산</strong><br><span class="help-text" style="margin:0">최단코스</span></td>
+                <td class="num">8.3(왕복)</td>
+                <td class="num">3시간 40분</td>
+                <td class="num">1445.7(주억봉)</td>
+                <td><span class="difficulty-badge mid">보통</span></td>
+                <td><a href="https://koreahike.com/%EB%B0%A9%ED%83%9C%EC%82%B0-%EB%93%B1%EC%82%B0%EC%BD%94%EC%8A%A4/" target="_blank" rel="noopener">블로그</a></td>
+              </tr>
+              </tbody>
+            </table>
+          </div>
+          <p class="help-text">난이도는 원 출처에 명시된 경우만 표시했으며, 명시되지 않은 코스는 "확인필요"로 남겨두었습니다. 거리·소요시간에 표기된 "편도"·"왕복"·"순환"은 원 출처 표기를 그대로 옮긴 것입니다.</p>
+        </section>
+
+        <nav class="related" aria-label="관련 페이지">
+          <h2>이어서 확인해보세요</h2>
+          <ul>
+            <li><a href="/"><strong>소요시간 계산기</strong><span>배낭무게·체력수준을 반영한 개인별 소요시간 계산</span></a></li>
+          </ul>
+        </nav>
+      </div>
+
+      <div class="container">
+        <section id="methodology">
+          <h2>코스 데이터는 어떻게 조사했나요?</h2>
+          <p>전국 17개 시도(서울·경기·인천·강원·충북·충남·대전·세종·전북·전남·광주·경북·경남·대구·부산·울산·제주)를 나눠 각 지역의 대표 등산 코스를 직접 웹 검색으로 조사했습니다. 출처는 국립공원공단(knps.or.kr) → 지자체 공식 관광 사이트 → 한국관광공사·두루누비 → 등산 전문 블로그 순으로 우선순위를 뒀습니다.</p>
+          <p>국립공원공단 공식 사이트의 코스 상세 페이지 상당수가 자바스크립트로 동적 렌더링되어 있어, 자동 조사 과정에서 세부 수치(거리·소요시간)를 직접 추출하지 못한 경우가 있었습니다. 이런 경우 관광공사·지자체의 2차 인용 자료나 신뢰할 수 있는 등산 전문 블로그로 보완했으며, 표의 "출처" 열에 실제 참고한 출처 등급을 그대로 표시했습니다.</p>
+          <p>어떤 출처에서도 신뢰할 만한 수치를 확인하지 못한 항목은 임의로 추정하지 않고 "확인필요"로 정직하게 남겨뒀습니다. 거리·난이도 표기가 출처마다 다른 경우(예: 팔봉산 고도 327.4m vs 302m)는 원문 그대로 병기했습니다.</p>
+        </section>
+
+        <section class="section-alt">
+          <div class="container" style="padding:0">
+            <h2>공식 통제시간과 다를 수 있습니다</h2>
+            <p>이 표의 소요시간은 각 출처가 제공한 참고용 수치입니다. 국립공원과 일부 지자체는 계절·기상에 따라 탐방로 통제시간을 수시로 조정합니다. 실제 산행 전에는 반드시 해당 국립공원·지자체 공식 사이트에서 최신 통제시간, 탐방로 통제 여부, 기상특보를 확인하시기 바랍니다.</p>
+          </div>
+        </section>
+      </div>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <div class="cols">
+      <div>
+        <h3>산타임</h3>
+        <p>전국 등산 코스 소요시간을 정부·공식 자료 기준으로 계산하고 조회하는 사이트입니다.</p>
+        <p class="disclaimer">이 사이트의 소요시간은 참고용 추정치이며, 실제 산행은 날씨·체력·경험에 따라 크게 달라질 수 있습니다. 산행 전 반드시 공식 통제시간과 기상 정보를 확인하세요.</p>
+      </div>
+      <div>
+        <h3>바로가기</h3>
+        <ul>
+          <li><a href="/">소요시간 계산기</a></li>
+          <li><a href="/courses/">전국 코스 조회</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3>사이트 정보</h3>
+        <ul>
+          <li><a href="/about/">소개</a></li>
+          <li><a href="/contact/">문의</a></li>
+          <li><a href="/privacy/">개인정보처리방침</a></li>
+          <li><a href="/terms/">이용약관</a></li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+
+  <script src="/assets/js/courses.js" defer></script>
+</body>
+</html>

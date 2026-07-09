@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>문의 — 산타임</title>
+  <meta name="description" content="코스 정보 오류 제보, 신규 코스 제안을 비롯한 일반적인 문의를 받습니다.">
+  <link rel="canonical" href="https://__DOMAIN__/contact/">
+  <link rel="icon" href="/assets/img/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/assets/css/style.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">본문 바로가기</a>
+  <header class="site-header">
+    <div class="inner">
+      <a class="logo" href="/">산타임</a>
+      <nav class="gnb" aria-label="주요 메뉴">
+        <ul>
+          <li><a href="/">소요시간 계산기</a></li>
+          <li><a href="/courses/">전국 코스 조회</a></li>
+          <li><a href="/about/">소개</a></li>
+          <li><a href="/contact/" aria-current="page">문의</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <div class="container">
+      <article>
+        <h1>문의하기</h1>
+        <p class="last-updated">최종 수정: 2026년 7월 9일</p>
+        <p>코스 정보 오류 제보(거리·소요시간이 실제와 다르거나 통제시간이 바뀐 경우), 신규 코스 추가 제안을 비롯한 일반적인 문의를 받습니다.</p>
+
+        <form class="calc-card" action="https://formsubmit.co/echochip@naver.com" method="POST">
+          <input type="hidden" name="_subject" value="[산타임] 문의">
+          <input type="hidden" name="_template" value="table">
+          <div class="field">
+            <label for="email">답변받을 이메일 <span class="req" aria-hidden="true">*</span></label>
+            <input type="email" id="email" name="email" class="input-tall" required aria-describedby="email-help">
+            <span id="email-help" class="help-text">답변 발송에만 사용하고 6개월 내 파기합니다 (개인정보처리방침 6항)</span>
+          </div>
+          <div class="field">
+            <label for="message">문의 내용 <span class="req" aria-hidden="true">*</span></label>
+            <textarea id="message" name="message" rows="7" required></textarea>
+            <span class="help-text">코스 오류 제보라면 산 이름·코스명과 실제와 다른 부분을 함께 적어주시면 빠르게 확인할 수 있습니다</span>
+          </div>
+          <button type="submit" class="btn btn-primary btn-lg">문의 보내기</button>
+        </form>
+
+        <p style="margin-top:2rem">폼이 동작하지 않으면 이메일로 직접 보내주세요: <strong>echochip@naver.com</strong></p>
+      </article>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="cols">
+      <div>
+        <h3>산타임</h3>
+        <p>전국 등산 코스 소요시간을 정부·공식 자료 기준으로 계산하고 조회하는 사이트입니다.</p>
+        <p class="disclaimer">이 사이트의 소요시간은 참고용 추정치이며, 실제 산행은 날씨·체력·경험에 따라 크게 달라질 수 있습니다.</p>
+      </div>
+      <div>
+        <h3>바로가기</h3>
+        <ul>
+          <li><a href="/">소요시간 계산기</a></li>
+          <li><a href="/courses/">전국 코스 조회</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3>사이트 정보</h3>
+        <ul>
+          <li><a href="/about/">소개</a></li>
+          <li><a href="/contact/">문의</a></li>
+          <li><a href="/privacy/">개인정보처리방침</a></li>
+          <li><a href="/terms/">이용약관</a></li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
